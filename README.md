@@ -6,6 +6,7 @@ Sandwich: Spark buns, donor patties, evolve cuts + donors. Hidden fixed at 2560.
 
 ## Layout
 - `PLAN.md` - full burger plan
+- `MODELS.md` - full donor inventory + discovery links
 - `configs/burger-v1.yml` - manual passthrough starter (MergeKit)
 - `configs/spark-core-ties.yml` - Group A TIES/DARE core
 - `evo/mergenetic.yml` - evolutionary search config
