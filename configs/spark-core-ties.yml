@@ -1,0 +1,13 @@
+models:
+  - model: hcnote/SparkMuse-4B
+    parameters: {weight: 0.6, density: 0.5}
+  - model: hcnote/Spark-X2.5-4B-Writing-EP1
+    parameters: {weight: 0.6, density: 0.5}
+  - model: darioooooo0o/spark-4b-engram
+    parameters: {weight: 0.5, density: 0.5}
+  - model: tchbcb/samai-4b
+    parameters: {weight: 0.5, density: 0.4}
+merge_method: ties
+base_model: spark-base
+parameters: {normalize: true, int8_mask: true}
+dtype: bfloat16

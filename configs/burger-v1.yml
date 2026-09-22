@@ -1,0 +1,18 @@
+merge_method: passthrough
+dtype: bfloat16
+slices:
+  - sources:
+      - model: spark-base
+        layer_range: [0, 6]
+  - sources:
+      - model: hcnote/Spark-X2.5-4B-Writing-EP1
+        layer_range: [6, 15]
+  - sources:
+      - model: tchbcb/samai-4b
+        layer_range: [15, 23]
+  - sources:
+      - model: darioooooo0o/spark-4b-engram
+        layer_range: [23, 30]
+  - sources:
+      - model: spark-base
+        layer_range: [30, 36]

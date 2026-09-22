@@ -1,0 +1,18 @@
+# Mergenetic evo - burger cuts + donors, buns fixed
+searcher: cmaes
+population: 20
+generations: 10
+objectives: [writing, reasoning, rp, tools]
+samples_per_task: 150
+mutate:
+  cut_jitter: 2
+  swap_donor: true
+fixed:
+  bottom_bun: [0, 6]
+  top_bun: [30, 36]
+donors:
+  - hcnote/Spark-X2.5-4B-Writing-EP1
+  - tchbcb/samai-4b
+  - darioooooo0o/spark-4b-engram
+  - hcnote/SparkMuse-4B
+notes: CPU merge, T4 eval subsampled. Evolve middle only first.
